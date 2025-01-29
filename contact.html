@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Neocon Infrastructure</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c7fcd2cbe7.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <link rel="icon" href="eduford_img/download-resizehood.com.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="logo">
+                    <img src="eduford_img/logos-removebg-preview.png" alt="Neocon Logo" class="logo-img" style="width: 70px; height: 70px;">
+                    <a href="index.html">Neo<span>con.</span></a>
+                </div>
+                <ul class="menu">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="service.html#service">Services</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    <section class="contact">
+        <div class="max-width">
+            <h2 class="title">Contact Us</h2>
+            <div class="map-container">
+                <iframe 
+                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.0794109419526!2d72.854547!3d19.2353706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b1a114d5c31f%3A0x5a1172bcb84680f0!2sVyomesh%20Apartment!5e0!3m2!1sen!2sin!4v1737888640065!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy"></iframe>
+            </div>
+            <div class="contact-content">
+                <div class="column left">
+                    <h5>Neocon Infra Services Pvt Ltd, Vyomesh Apartment</h5>
+                    <p>Mumbai, Maharashtra, IN</p>
+                    <div class="icons">
+                        <i class="fa-solid fa-phone"></i> +91 9892221115, 9920757525
+                        <p>Monday to Friday, 10am to 6:45PM IST</p>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-envelope"></i> neocon.infra@gmail.com
+                        <p>Email us your query</p>
+                    </div>
+                </div>
+                <div class="column right">
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuBtn = document.querySelector('.menu-btn');
+            const menu = document.querySelector('.navbar .menu');
+    
+            menuBtn.addEventListener('click', function() {
+                menu.classList.toggle('active'); // Toggle the active class
+                menuBtn.classList.toggle('active'); // Optional: Change button style
+            });
+        });
+    </script>
+    </script>
+</body>
+</html>
+    <script>
+        $(document).ready(function() {
+            $('.menu-btn').click(function() {
+                $('.menu').toggle(); // Toggle the menu visibility
+            });
+        });
+    </script>
+</body>
+</html>
+
+    
+
+   
+    <!---------JAVA SCRIPT FOR TOGGLE MENU----------->  
+    <script>
+        const navLinks = document.getElementById("navLinks");
+        const barsIcon = document.querySelector(".fa-bars");
+        const closeIcon = document.querySelector(".fa-x");
+
+        // Function to toggle the navigation menu
+        barsIcon.addEventListener("click", () => {
+            navLinks.classList.toggle("nav-active");
+        });
+
+        // Function to close the navigation menu
+        closeIcon.addEventListener("click", () => {
+            navLinks.classList.remove("nav-active");
+        });
+
+        // Close the menu when a link is clicked
+        const menuLinks = document.querySelectorAll(".nav-links ul li a");
+        menuLinks.forEach(link => {
+            link.addEventListener("click", () => {
+                navLinks.classList.remove("nav-active");
+            });
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
